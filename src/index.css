@@ -3,6 +3,8 @@
 /* Tema Claro (por defecto) */
 :root {
     --color-primary: #FE2D2D;
+    --color-primary-hover: #FE6E61;
+    --color-primary-inactive: #FEE3D4;
     --color-secondary: #FFC529;
     --color-background: #ffffff;
     --color-text: #000000;
@@ -11,6 +13,10 @@
 
   .bg-primary {
     background-color: var(--color-primary);
+  }
+
+  .bg-primary:hover {
+    background-color: var(--color-primary-hover);
   }
   
   .text-primary {

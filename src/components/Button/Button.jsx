@@ -1,7 +1,9 @@
 import React from "react";
 
 const buttonVariants = {
-  default: "bg-primary text-white shadow hover:bg-blue-500",
+  default: "bg-black text-white shadow-sm hover:bg-blue-500",
+  primaryActive: "bg-primary text-white shadow",
+  primaryInactive: "bg-primary text-white shadow",
   destructive: "bg-secondary text-primary shadow-sm hover:bg-red-500",
   outline: "border border-gray-300 bg-white text-gray-700 shadow-sm hover:bg-gray-100",
   secondary: "bg-gray-600 text-white shadow-sm hover:bg-gray-500",
