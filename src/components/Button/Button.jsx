@@ -11,17 +11,10 @@ const buttonVariants = {
   link: "text-blue-600 underline-offset-4 hover:underline",
 };
 
-const sizeVariants = {
-  default: "h-9 px-4 py-2",
-  sm: "h-8 rounded-md px-3 text-xs",
-  lg: "h-10 rounded-md px-8",
-  icon: "h-9 w-9 flex items-center justify-center",
-};
-
 const Button = ({ variant = "default", size = "default", className = "", children, ...props }) => {
   return (
     <button
-      className={`inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 "h-9 px-4 py-2 ${buttonVariants[variant]} ${className}`}
+      className={`inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-blue-500 "h-9 px-4 py-2 ${buttonVariants[variant]} ${className}`}
       {...props}
     >
       {children}
