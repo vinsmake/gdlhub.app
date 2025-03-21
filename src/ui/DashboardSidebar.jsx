@@ -24,10 +24,10 @@ export const DashboardSidebar = () => {
 
             {/* Navegación */}
             <nav className="flex flex-col gap-2">
-                <a href="#" className="flex items-center gap-2 hover:bg-neutral-600 rounded-xl px-3 py-2 transition">
+                <a href="#" className="flex items-center gap-2 bg-red-800 rounded-xl px-3 py-2 transition">
                     <Home size={24} /> Inicio
                 </a>
-                <a href="#" className="flex items-center gap-2 hover:bg-red-800 rounded-xl px-3 py-2 transition">
+                <a href="#" className="flex items-center gap-2 hover:bg-neutral-600 rounded-xl px-3 py-2 transition">
                     <Utensils size={24} /> Restaurantes
                 </a>
                 <a href="#" className="flex items-center gap-2 hover:bg-neutral-600 rounded-xl px-3 py-2 transition">
