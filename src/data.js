@@ -1,4 +1,4 @@
-import logo from "./assets/images/logo/logoe.png";
+import logo from "./assets/images/logo/logo.png";
 
 export const data = {
         Sidebar: {
