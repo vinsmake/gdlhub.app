@@ -1,6 +1,6 @@
 {
-  "name": "Gdl Hub",
-  "short_name": "Gdl Hub",
+  "name": "GDLHUB",
+  "short_name": "GDLHUB",
   "icons": [
     {
       "src": "/favicon/web-app-manifest-192x192.png",
@@ -15,7 +15,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "background_color": "#000000",
   "display": "standalone"
 }
