@@ -1,5 +1,6 @@
-import { DashboardMain } from "./DashboardMain"
-import { DashboardSidebar } from "./DashboardSidebar"
+import { DashboardMain } from "@ui/DashboardMain"
+import { DashboardSidebar } from "@ui/DashboardSidebar"
+
 
 export const Dashboard = ({ children }) => {
     return (

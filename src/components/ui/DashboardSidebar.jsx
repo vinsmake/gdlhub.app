@@ -1,15 +1,15 @@
 import {
-    Home,
-    Utensils,
-    List,
-    Percent,
-    MapPin,
-    Heart,
     Eye,
+    Heart,
+    Home,
+    List,
+    MapPin,
+    Percent,
     Settings,
+    Utensils,
 } from "lucide-react";
 
-import { data } from "../data";
+import { data } from "../../data";
 const { Sidebar } = data;
 
 export const DashboardSidebar = () => {
